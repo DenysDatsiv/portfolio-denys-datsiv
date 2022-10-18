@@ -1,0 +1,96 @@
+.master-skills {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h2 {
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin-top: 0;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.person-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.person-image {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 155px;
+    height: 155px;
+}
+
+.profile-photo {
+    border-radius: 80px;
+}
+
+
+.currently {
+    display: none;
+}
+
+.iAm {
+    display: flex;
+    color: #fff;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 15px;
+}
+
+.yellowLetter::first-letter {
+    color: #FFC22B;
+}
+
+.yellowLetter {
+    margin-left: 0.5rem;
+}
+
+.h1 {
+    display: none;
+}
+
+.socialLink {
+    display: none;
+}
+
+
+
+@media (min-width: 681px) {
+    .person-block {
+        padding-top: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        width: 65%;
+    }
+
+    .person-image {
+        padding-right: 50px;
+    }
+
+    .master-skills {
+        display: block;
+    }
+
+    .socialLink {
+        display: flex;
+        color: #fff;
+        font-family: 'Montserrat', sans-serif;
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+}
